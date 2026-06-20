@@ -8,7 +8,7 @@ training error than networks with comparatively less layers.
 
 The solution that ResNets provide is that rather than expecting
 stacked layers to directly approximate a desired underlying mapping H(x),
-ResNet lets these layers fit a **residual mapping** F(x) := H(x) − x.
+ResNet lets these layers fit a **residual mapping** F(x) = H(x) − x.
 The original mapping is then recast as: y = F(x) + x.
 
 This is achieved through **shortcut connections** or residual connections
