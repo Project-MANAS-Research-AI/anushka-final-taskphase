@@ -25,9 +25,9 @@ ResNet-18 consists of 18 layers:
 - 16 convolution layers forming **8 residual blocks**
 - 1 fully connected layer
 
-## Dataset — CIFAR-10
+## CIFAR-10 Dataset
 
-The CIFAR-10 dataset consists of 60,000 32×32 colour images spanning
+The [CIFAR-10](https://cave.cs.toronto.edu/kriz/cifar.html) dataset consists of 60,000 32×32 colour images spanning
 10 mutually exclusive classes, with 6,000 images per class:
 - **50,000** training images
 - **10,000** test images
@@ -35,8 +35,8 @@ The CIFAR-10 dataset consists of 60,000 32×32 colour images spanning
 Classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck.
 
 ### Architectural Decisions
-The following design choices are consistent with those adopted in the
-original ResNet paper (He et al., 2015):
+The following design choices are consistent with those adopted in the original
+ResNet paper- [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (He et al., 2015):
 
 - **Stem modification for CIFAR-10:** The original ImageNet architecture
 employs a 7×7 convolution with stride=2 followed by max pooling, suited
