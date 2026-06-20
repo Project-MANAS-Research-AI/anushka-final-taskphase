@@ -58,7 +58,7 @@ Normalization is applied after every convolution and before activation
 throughout the network. Dropout is not used.
 
 - **Global Average Pooling:** In place of large fully connected layers,
-a global average pooling layer is used before the final classifiction.
+a global average pooling layer is used before the final classification.
 This significantly reduces parameters while improving generalization.
 
 ## Training Setup
