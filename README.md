@@ -34,7 +34,7 @@ The [CIFAR-10](https://cave.cs.toronto.edu/kriz/cifar.html) dataset consists of 
 
 Classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck.
 
-### Architectural Decisions
+## Architectural Decisions
 The following design choices are consistent with those adopted in the original
 ResNet paper- [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (He et al., 2015):
 
