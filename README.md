@@ -2,7 +2,7 @@
 
 I've written a blog explaining the attention mechanism and the 
 architecture of a Transformer based on my own understanding, you
-can find it on my [personal website](https://anushka-priya.github.io/): [here](https://anushka-priya.github.io/blog/attention-is-all-you-need/).
+can find it [here](https://anushka-priya.github.io/blog/attention-is-all-you-need/).
 
 
 # ViT Attention Map Visualizations
