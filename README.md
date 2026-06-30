@@ -30,7 +30,7 @@ Cross-Entropy Loss (weight = 0.3)
 This combination improves class balance, handles difficult samples, 
 and optimizes segmentation overlap simultaneously.
 
-![Training Curves](training-curves.png)
+![Training Curves](training.png)
 
 ## Training Hyperparameters
 
