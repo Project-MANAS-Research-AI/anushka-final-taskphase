@@ -24,7 +24,9 @@ The main changes include:
 Training used a weighted hybrid loss combining three complementary objectives:
 
 Dice Loss (weight = 0.4)
+
 Focal Loss (weight = 0.3)
+
 Cross-Entropy Loss (weight = 0.3)
 
 This combination improves class balance, handles difficult samples, 
