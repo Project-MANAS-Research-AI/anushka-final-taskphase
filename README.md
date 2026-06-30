@@ -55,4 +55,6 @@ and optimizes segmentation overlap simultaneously.
 
 Best average validation Dice score: 0.7867
 
+## Validation
+
 ![Validation](us_nerve.png)
