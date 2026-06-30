@@ -39,7 +39,6 @@ and optimizes segmentation overlap simultaneously.
 | Parameter               | Value                                                             |
 | ----------------------- | ----------------------------------------------------------------- |
 | Input size              | 128 × 128                                                         |
-| Batch size              | 16                                                                |
 | Number of classes       | 6                                                                 |
 | Optimizer               | AdamW                                                             |
 | Learning rate           | 3 × 10⁻⁴                                                          |
