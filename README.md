@@ -30,6 +30,8 @@ Cross-Entropy Loss (weight = 0.3)
 This combination improves class balance, handles difficult samples, 
 and optimizes segmentation overlap simultaneously.
 
+![Training Curves](training-curves.png)
+
 ## Training Hyperparameters
 
 | Parameter               | Value                                                             |
@@ -52,3 +54,5 @@ and optimizes segmentation overlap simultaneously.
 | Ultrasound Nerve | **0.8791** | **0.8666** |
 
 Best average validation Dice score: 0.7867
+
+![Validation](us_nerve.png)
